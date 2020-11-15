@@ -120,7 +120,7 @@ h1 {
 
 @media (max-width: 768px) {
   header {
-    height: 40vh;
+    height: 50vh;
     border-bottom: 6px solid #eee;
   }
 
@@ -156,13 +156,15 @@ h1 {
 @media (max-width: 500px) {
   header {
     position: relative;
-    height: 50vh;
+    height: 60vh;
     border-bottom: 5px solid #eee;
   }
 
   h1 {
     font-size: 3rem;
+    margin-top: 2rem;
   }
+
   .guess-my {
     display: block;
     padding-bottom: 1rem;
