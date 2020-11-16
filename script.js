@@ -24,6 +24,7 @@ const gameOver = () => {
   message.textContent = '💥 You lost the game!';
   score = 0;
   labelScore.textContent = score;
+  secretNumber.textContent = randomNumber;
 };
 
 const checkResult = () => {
